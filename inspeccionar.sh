@@ -2,7 +2,7 @@
 
 # Verificar que se ingrese un argumento
 if (( $# != 1 )); then
-    echo "Uso: $0 <ruta>"
+    echo "Error de entrada: $0 <ruta>"
     exit 1
 fi
 
